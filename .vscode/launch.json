@@ -1,0 +1,114 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "KafkaConsumerApplication",
+            "request": "launch",
+            "mainClass": "com.prasad.KafkaConsumerApplication",
+            "projectName": "kafkaConsumer"
+        },
+        {
+            "type": "java",
+            "name": "KafkaAppilicaionApplication",
+            "request": "launch",
+            "mainClass": "com.prasad.KafkaAppilicaionApplication",
+            "projectName": "KafkaAppilicaion"
+        },
+        {
+            "type": "java",
+            "name": "KafkaAppilicaionApplication",
+            "request": "launch",
+            "mainClass": "com.prasad.KafkaAppilicaion.KafkaAppilicaionApplication",
+            "projectName": "KafkaAppilicaion"
+        },
+        {
+            "type": "java",
+            "name": "KafkaAppilicationApplication",
+            "request": "launch",
+            "mainClass": "com.prasad.kafkaAppilication.KafkaAppilicationApplication",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "KafkaProducerApplication",
+            "request": "launch",
+            "mainClass": "com.prasad.kafkaAppilication.KafkaProducerApplication",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "KafkaConsumerApplication",
+            "request": "launch",
+            "mainClass": "com.prasad.kafkaConsumer.KafkaConsumerApplication",
+            "projectName": "kafkaConsumer"
+        },
+        {
+            "type": "java",
+            "name": "KafkaAppilicationApplication",
+            "request": "launch",
+            "mainClass": "com.prasad.kafkaAppilication.KafkaAppilicationApplication",
+            "projectName": "kafkaAppilication"
+        },
+        {
+            "type": "java",
+            "name": "StudentApplication",
+            "request": "launch",
+            "mainClass": "com.prasad.student.StudentApplication",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-DiscoverServerApplication<discoverServer>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.prasad.discoverServer.DiscoverServerApplication",
+            "projectName": "discoverServer",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=54080 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=discoverServer"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-StudentApplication<student>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.prasad.student.StudentApplication",
+            "projectName": "student",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=54126 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=student"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-SchoolApplication<school>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.prasad.school.SchoolApplication",
+            "projectName": "school",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=50345 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=school"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ConfigServerApplication<configServer>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.prasad.configServer.ConfigServerApplication",
+            "projectName": "configServer",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env",
+            "vmArgs": " -Dcom.sun.management.jmxremote -Dcom.sun.management.jmxremote.port=51180 -Dcom.sun.management.jmxremote.authenticate=false -Dcom.sun.management.jmxremote.ssl=false -Dspring.jmx.enabled=true -Djava.rmi.server.hostname=localhost -Dspring.application.admin.enabled=true -Dspring.boot.project.name=configServer"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-GatewayApplication<gateway>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.prasad.gateway.GatewayApplication",
+            "projectName": "gateway",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
